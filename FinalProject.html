@@ -1,0 +1,121 @@
+<!DOC TYPE HTML>
+<HTML>
+    <head>
+        <form>
+        <meta char-set="UTF-8">
+        <meta name="description" content="Final HTML project web developement energia powered">
+        <title>FinalProject</title>
+       
+        <style>
+            body{margin:0;padding:0;}
+            .Header
+            {
+                background-image: url('1.jpg');
+                color:#FFFFFF;
+                font-size:40px;
+                text-align:center;
+                padding:30px 0
+            }
+            .heading{background:#061763; padding:10px}
+            .Links
+            {
+                background:#061763;
+                color:#FFFFFF;
+                font-size:15px;
+                text-align:center;
+                padding:10px 0;
+            }
+            ul{list-style:none;padding:0;margin:0;}
+            ul li{display:inline-block;color:#FFFFFF;padding:5px;}
+            .Logo
+            {
+            background-image: url('2.jpg');
+            color:#061763;
+            text-align:center;
+            padding:5px 0;
+            }
+            p{color:#F1EA7A;}
+            fieldset{padding:10px; margin-bottom:0}
+            legend{background:#061763;color:white; border:1px solid#CCC; padding:10px}
+            label{padding:10px; margin-bottom:20px; color:#F1EA7A; font-size:20px;}
+            .PersonalInfo{background-image: url('personalinfor - Copy.jpg');}
+            .Course{background-image: url('2.jpg'); color:#F1EA7A}
+            .Message{background-image: url('2.jpg');color:#F1EA7A;}
+            input[type="text"],select{margin-bottom:10px; padding:8px; width:300px}
+            input[type="text"]{display:block}
+        </style>
+        <script>alert("Welcome to Energia Powered");</script>
+    </head>
+    <body>
+        <Div class="Header">
+          <span class="heading"><b>Energia Powered</b></span> 
+        </Div>
+        <Div class="Links">
+                <ul>
+                    <li><a href="http://www.energiapowered.com/" target=_blank style="color:white">Website</a></li>
+                    <li><a href="energiapowered21@gmail.com" target=_blank style="color:white">Gmail</a></li>
+                    <li><a href="https://www.facebook.com/Energia.Powered/" target=_blank style="color:white">Facebook</a></li> 
+                    <li><a href="https://twitter.com/energia_powered?lang=en" target=_blank style="color:white">Twitter</a></li> 
+                    <li><a href="https://www.instagram.com/energia.powered/?hl=en" target=_blank style="color:white">Instagram</a></li> 
+                    <li><a href="https://www.youtube.com/channel/UCxNgZOJJx9LzqWLhCEu8Djw" target=_blank style="color:white">Youtube</a></li> 
+                    <li><a href="https://www.linkedin.com/company/energiapowered/" target=_blank style="color:white">LinkedIn</a></li> 
+                    <li><a href="http://www.findglocal.com/EG/Giza/265361990265314/Energia-Powered" target=_blank style="color:white">FindGlocal</a></li> 
+                    <li>Whatsapp:01120127810<li> 
+                    <li>Phone Number:01148762666</il>
+                </ul>
+        </Div>
+         <Div class="Logo">
+                 <img src="logo.PNG" alt="Energia Powered" width="150" height="150">
+                <p>Energia Powered, Ain Shams 2011/2012</p>
+        </Div>
+        <fieldset class="PersonalInfo">
+            <legend>Personal Information</legend>
+            <label>Full Name</label>
+            <input type="text" name="Username" placeholder="Amira Abdallah" required>
+           
+            <label>Email</label>
+            <input type="text" name="Email" placeholder="amira@example.com" required>
+          
+            <label>Address</label>
+            <input type="text" name="Address" placeholder="3B Zahraa Al-Maadi Cairo" required>
+          
+            <label>University</label>
+            <input type="text" name="University" placeholder="Cairo" required>
+            
+            <label>Faculty</label>
+            <input type="text" name="Faculty" placeholder="Faculty of Engineering" required>
+
+            <label>Department</label>
+            <input type="text" name="Department" placeholder="Computer" required>
+            <label>Gender</label> <br>
+            <select name="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </fieldset>
+        <fieldset class="Course">
+            <legend>Course</legend>
+           <label>Choose one course</label>  <br>
+            <input type="radio" name="Course" value="Python">Python <br>
+            <input type="radio" name="Course" value="Arduino">Arduino <br><br>
+            <label>Course date</label> <br>
+            <input type="date" name="Date"> <br><br>
+            <label>Course time</label> <br>
+            <input type="radio" name="Time" value="3">3:00 PM <br>
+            <input type="radio" name="Time" value="6">6:00 PM <br><br>
+            Other:<input type="time" name="Time">
+        </fieldset>
+        <fieldset class="Message">
+            <legend>Message</legend>
+            <label>Your Comment </label><br>
+            <textarea id="Comment" cols="45" rows="10" placeholder="Please leave a comment here...">
+            </textarea>
+            <br>
+           <input type="checkbox">
+           <input type="reset" value="Reset"> 
+            <input type="checkbox">
+            <input type="submit" name="Submit">
+        </fieldset>
+        </form>
+    </body>
+</HTML>
